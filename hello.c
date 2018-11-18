@@ -10,7 +10,7 @@ int main()
     {
        printf("You haven't pressed any key.\n");
     }
-    int x;
+
     ch=getch();  // stores the pressed key in ch;
     system("cls");
     printf("%d %c\n", ch, ch);
